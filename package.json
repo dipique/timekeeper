@@ -1,0 +1,47 @@
+{
+    "name": "timekeeper",
+    "version": "1.0.0",
+    "description": "For Vee &lt;3",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack serve --open --mode development",
+        "build": "webpack --mode development",
+        "watch": "npm run monitor",
+        "monitor": "webpack --mode development -w",
+        "restore": "npm install"
+    },
+    "dependencies": {
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.14.2",
+        "@babel/plugin-transform-react-jsx": "^7.13.12",
+        "@babel/preset-react": "^7.13.13",
+        "@babel/preset-typescript": "^7.13.0",
+        "@types/react-dom": "^17.0.5",
+        "babel-loader": "^8.2.2",
+        "css-loader": "^5.2.4",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "sass-loader": "^11.1.1",
+        "source-map": "^0.7.3",
+        "style-loader": "^2.0.0",
+        "ts-loader": "^9.1.2",
+        "typescript": "^4.2.4",
+        "webpack": "^5.37.0",
+        "webpack-cli": "^4.7.0",
+        "webpack-dev-server": "^3.11.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dipique/timekeeper.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/dipique/timekeeper/issues"
+    },
+    "homepage": "https://github.com/dipique/timekeeper#readme"
+}
